@@ -49,7 +49,7 @@ def run_agent():
         """
 
         response = client.models.generate_content(
-            model="gemini-2.5-flash",
+            model="gemini-3.8-flash",
             contents=prompt,
         )
         msg = f"🔥 SESSION: DAY {DAY_NUMBER} (UNLIMITED ROUND)\n\n" + response.text
